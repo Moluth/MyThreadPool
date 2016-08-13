@@ -11,5 +11,7 @@ ThreadCallBack 中定义了两个方法：
 定义了两个常量：
 * public static final int RUN_STATE_OK = 1;//运行成功
 * public static final int RUN_STATE_WRONG = 0;//运行错误
+
 ***
+
 其中run()中是子线程，finishRun()中是主线程.finishRun()有一个参数，是运行结果的状态，这个状态只能靠运行是否异常来判断
